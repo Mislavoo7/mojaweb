@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"> <!--da mogu č,ć,š... -->
+	<script src="skripta.js"></script>
+	<link rel="stylesheet" type="text/css" href="mojcssmobile.css">
+	<link rel="stylesheet" type="text/css" href="mojcss.css">
+	<title>Mislav Kvesić - Tražim posao</title>
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "2422e450-9965-4996-ba38-a8bbc34f0ef0", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+
+</head>
+<body onload=" kreni()">
+
+<div>
+	<h1 class="hrvatski">Tražim posao</h1>
+	<h1 class="njemacki">Ich suche Arbeit</h1>
+	<h1 class="engleski">I'm looking for a job</h1>
+	<!--<h1 class="francuski">Je cherche un emploi</h1>-->
+</div>
+
+<div style="float: left;"> <br> <br>
+<span class='st_sharethis_large' displayText='ShareThis'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_tumblr_large' displayText='Tumblr'></span>
+<span class='st_googleplus_large' displayText='Google +'></span>
+<span class='st__large' displayText=''></span>
+</div>
+
+<div class="rub">
+	<div class="lijeva">
+		<a href="mislav_kvesic.jpg" target="_blank">  <img src="mislav_kvesic.png" alt="Mislav Kvesić" class="ja"> </a>
+		<div id="kontakti">
+			<h4 class="hrvatski"> <b>Kontakt: </b> 098/923-3183 kvesic.mislav@gmail.com</h4>
+			<h4 class="njemacki"> <b>Kontakt: </b> 098/923-3183 kvesic.mislav@gmail.com</h4>
+			<h4 class="engleski"> <b>Contact: </b> 098/923-3183 kvesic.mislav@gmail.com</h4>
+
+		<!--	<h4 class="francuski"> <b>Contact: </b> 098/923-3183</h4> -->
+
+			<a href="https://www.facebook.com/mislav.kvesic" target="_blank">  <img src="fb.png" alt="Mislav Kvesić FB" class="drust"/> </a>
+			<a href="http://jasammislav.tumblr.com/" target="_blank">  <img src="tum.png" alt="Mislav Kvesić Tum" class="drust"/> </a>
+			<a href="mailto:kvesic.mislav@gmail.com"><img src="gm.png" alt="Mislav Kvesić email" class="drust"/> </a>  
+		</div>
+		<div class="hrvatski" id="dugmici">
+			<hr> 
+			<a href="#pocetna" class="dugme">O Meni</a>
+			<br><br>
+			<a href="#ostranici" class="dugme">O stranici</a>
+			<br><br>
+			<a href="#js" class="dugme">JavaScript</a>
+			<br><br>
+			<a href="#ostalo" class="dugme">Ostalo</a>	
+			<br>
+			<hr>
+		</div>
+		<div class="njemacki" id="dugmici">
+			<hr>
+			<a href="#pocetna" class="dugme">Über mich</a>
+			<br><br>
+			<a href="#ostranici" class="dugme">Webseite</a>
+			<br><br>
+			<a href="#js" class="dugme">JavaScript</a>
+			<br><br>
+			<a href="#ostalo" class="dugme">Anderes</a>	
+			<br>
+			<hr>
+		</div>
+
+		<div class="engleski" id="dugmici">
+			<hr> 
+			<a href="#pocetna" class="dugme">About me</a>
+			<br><br>
+			<a href="#ostranici" class="dugme">Website</a>
+			<br><br>
+			<a href="#js" class="dugme">JavaScript</a>
+			<br><br>
+			<a href="#ostalo" class="dugme">Other</a>	
+			<br>
+			<hr>
+		</div>
+<!--
+		<div class="francuski" id="dugmici">
+			<hr>
+			<a href="#pocetna" class="dugme">Sur moi</a>
+			<br><br>
+			<a href="#ostranici" class="dugme">Site web</a>
+			<br><br>
+			<a href="#js" class="dugme">JavaScript</a>
+			<br><br>
+			<a href="#ostalo" class="dugme">Autre</a>	
+			<br>
+			<hr>
+		</div> -->
+		
+		<div class="hrvatski">
+		<table class="settings">
+			<tr> <th colspan="2">Postavke stranice</th></tr>
+			<tr> <td >Jezik</td> <td> 	<img src="hr.png" alt="hr" onclick="jezik(0)" class="flag">
+							<img src="de.png" alt="de" onclick="jezik(1)" class="flag">
+							<img src="en.png" alt="en" onclick="jezik(2)" class="flag">
+						<!--	<img src="fr.png" alt="fr" onclick="jezik(3)" class="flag"> -->
+						</td></tr>
+			<tr> <td>Boja </td> <td> <input class="claboja" style="cursor:pointer" onchange="mjenjajboju(0)" type="color" /> </td> </tr>
+		</table>
+		</div>
+		
+		<div class="njemacki">
+		<table class="settings">
+			<tr> <th colspan="2">Einstellungen</th></tr>
+			<tr> <td >Sprache</td> <td> 	<img src="hr.png" alt="hr" onclick="jezik(0)" class="flag">
+							<img src="de.png" alt="de" onclick="jezik(1)" class="flag">
+							<img src="en.png" alt="en" onclick="jezik(2)" class="flag">
+						<!--	<img src="fr.png" alt="fr" onclick="jezik(3)" class="flag"> -->
+						</td></tr>
+			<tr> <td>Farbe </td> <td> <input class="claboja" style="cursor:pointer" onchange="mjenjajboju(1)" type="color"/></td> </tr>
+		</table>
+		</div>
+
+		<div class="engleski">
+		<table class="settings">
+			<tr> <th colspan="2">Settings</th></tr>
+			<tr> <td >Language</td> <td> 	<img src="hr.png" alt="hr" onclick="jezik(0)" class="flag">
+							<img src="de.png" alt="de" onclick="jezik(1)" class="flag">
+							<img src="en.png" alt="en" onclick="jezik(2)" class="flag">
+						<!--	<img src="fr.png" alt="fr" onclick="jezik(3)" class="flag"> -->
+						</td></tr>
+			<tr> <td>Colour </td> <td> <input class="claboja" style="cursor:pointer" onchange="mjenjajboju(2)" type="color"/></td></tr>
+		</table>
+		</div>
+<!--
+		<div class="francuski">
+		<table class="settings">
+			<tr> <th colspan="2">Paramètres</th></tr>
+			<tr> <td >Langue</td>< <td> 	<img src="hr.png" alt="hr" onclick="jezik(0)" class="flag">
+							<img src="de.png" alt="de" onclick="jezik(1)" class="flag">
+							<img src="en.png" alt="en" onclick="jezik(2)" class="flag">
+							<img src="fr.png" alt="fr" onclick="jezik(3)" class="flag">
+						</td></tr>
+			<tr> <td>Couleur </td> <td> <input class="claboja" style="cursor:pointer" onchange="mjenjajboju(3)" type="color"/></td></tr>
+			<tr> <td>Disposition</td> <td> <input style="cursor:pointer" onclick="izgled()"type="button" value="View"/></td></tr>
+		</table>
+		</div> -->
+	</div>
+
+	<div class="desna">
+		<div id="pocetna">
+			<h2 class="hrvatski">O meni</h3>
+			<div class="hrvatski"> <p1> 
+Ja sam Mislav Kvesić. Rođen sam 9. prosinca 1989. godine u Osijeku i nadam se da neću nikada biti prisiljen napustiti ovaj grad. Nakon osnovne škole upisao sam i završio sam II. gimnaziju u Osijeku i upisao <b>Ekonomski fakultet u Osijeku smjer marketing</b>. Preddiplomski studij završio sam nakon tri godine, a nakon dodatne dvije godine završio sam diplomski studij. Upisao sam poslijediplomski studij, Marketing posebnih područja i planiram ga do kraja godine završiti. Osim formalnog obrazovanja volim strane jezike od kojih se vješto služim <b>njemačkim</b> i <b>engleskim</b>, a <b>francuski</b> učim na razini B1 u Francuskoj Alijansi u Osijeku. <br> <br>
+Završio sam <b>stručno osposobljavanje u Upravnom odjelu za javne financije u Osječko-baranjskoj županiji</b> i položio sam Državni stručni ispit. 
+Za vrijeme studiranja radio sam razne poslove i projekte koji se mogu vidjeti u sljedećim tablicama i u <a class="plink" href="zivotopis.pdf" target="_blank"> životopisu: </a>
+				</p1>
+				<br> <br>
+				<table class="ptablica"><tr><th> Radna iskustva </th></tr>
+					<tr><td class="ptablica">Upravni odjel za javne financije – Osječko-baranjska županija </td></tr>
+					<tr><td class="ptablica">Tvrtka Econ </td></tr>
+					<tr><td class="ptablica">Osječka Televizija</td></tr>
+					<tr><td class="ptablica">Agencija Puls</td></tr>
+					<tr><td class="ptablica">Demonstrator na Ekonomskom fakultetu u Osijeku</td></tr>
+					<tr><td class="ptablica">Talent menadžment (TM), AIESEC</td></tr>
+					<tr><td class="ptablica">Outgoing Exchange (OEX), AIESEC</td></tr>
+				</table>
+				<br>
+				<table class="ptablica"><tr><th> Projekti </th></tr>
+					<tr><td class="ptablica">Projektni zadatak „Marketing strategija u Borovo d.d.“, Ekonomski fakultet u Osijeku </td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) Nestle, Ekonomski fakultet u Zagrebu </td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) PBZ, Ekonomski fakultet u Zagrebu </td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) Nokia, Ekonomski fakultet u Zagrebu</td></tr>
+				</table>
+			</div>
+
+			<h2 class="njemacki">Über mich</h3>
+			<div class="njemacki"><p1> 
+Ich heiße Mislav Kvesić. Ich wurde am 9. Dezember 1989 in Osijek geboren und ich hoffe dass ich niemals gezwungen werden sein diese Stadt zu verlassen. Nach der Grundschule schrieb ich mich in das Zweite Gymnasium in Osijek ein, schaffte meinen Abslchluss und schrieb mich in die <b>Fakultät für Wirtschaftswissenschaften in Osijek mit Schwerpunkt auf Marketing</b> ein. Nach drei Jahren schaffte ich meinen Bachelor Abschluss und nach zusätzlichen zwei Jahren schaffte ich mein Masterstudium. Ich schrieb mich in ein weiteres Studium, Marketing spezieller Bereiche, ein und ich plane es bis Jahresende zu beenden. Neben der formalen Bildung liebe ich Fremdsprachen von denen ich geschickt <b>Deutsch</b> und <b>Englisch</b> verwende und <b>Französisch</b> lerne ich noch auf der Stufe B1 in der Französischen Allianz in Osijek. 
+Ich beendete mein <b>Praktikum in der Behörde für öffentlichen Finanzen in dem Landtag Osijek-Baranja</b> und ich bestand die Staatsprüfung.
+Während des Studiums hatte ich verschiedene Jobs und Projekte, die in den folgenden Tabellen und in dem <a class="plink" href="zivotopis.pdf" target="_blank">Lebenslauf </a> zu sehen sind:
+			</p1>
+				<table class="ptablica"><tr><th>Berufserfahrung</th></tr>
+					<tr><td class="ptablica">Die Behörde fur öffentlichen Finanzen in der Landtag Osijek-Baranja</td></tr>
+					<tr><td class="ptablica">Die Firma Econ</td></tr>
+					<tr><td class="ptablica">Osječka Televizija</td></tr>
+					<tr><td class="ptablica">Agentur Puls</td></tr>
+					<tr><td class="ptablica">Assistent an der Fakultät für Wirtschaftswissenschaften in Osijek</td></tr>
+					<tr><td class="ptablica">Talent menadžment (TM), AIESEC</td></tr>
+					<tr><td class="ptablica">Outgoing Exchange (OEX), AIESEC</td></tr>
+				</table>
+				<br>
+				<table class="ptablica"><tr><th> Projekte </th></tr>
+					<tr><td class="ptablica">Projekt Aufgabe „Marketing Strategie für Borovo d.d.“, an der Fakultät für Wirtschaftswissenschaften in Osijek </td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) Nestle, an der Fakultät für Wirtschaftswissenschaften in Zagreb</td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) PBZ, an der Fakultät für Wirtschaftswissenschaften in Zagreb</td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) Nokia, an der Fakultät für Wirtschaftswissenschaften in Zagreb</td></tr>
+				</table>
+			</div>
+
+			<h2 class="engleski">About me</h3>
+			<div class="engleski"><p1>
+My name is Mislav Kvesić. I was born on 9 December 1989 in Osijek and I hope that I will never be forced to leave my hometown. After primary school, I finished grammar school here in Osijek and attended <b>the Faculty of Economics in Osijek, focusing on marketing</b>. After three years, I finished the undergraduate studies and earned a bachelor's degree. After two additional years, I got my master's degree. I signed up for an additional year of postgraduate specialised studies, Marketing of special areas, and I am planning on finishing it this year.<br>
+Except formal education, I love learning new languages. I am good at <b>English</b> and <b>German</b> and I am learning <b>French</b> at B1 level at the French Alliance in Osijek.<br>
+I worked in the <b>Administrative department of public finances in the Osijek-Baranja County</b> and I passed the state license exam. While at the university,  I had many jobs and worked on many projects, which can be seen in the tables below and in my <a class="plink" href="zivotopis.pdf" target="_blank">CV:</a>
+				</p1>
+				<br> <br>
+				<table class="ptablica"><tr><th>Working experience</th></tr>
+					<tr><td class="ptablica">The Administrative department of public finances in the Osijek-Baranja County</td></tr>
+					<tr><td class="ptablica">Econ firm </td></tr>
+					<tr><td class="ptablica">Osječka Televizija</td></tr>
+					<tr><td class="ptablica">Puls agency</td></tr>
+					<tr><td class="ptablica">Assistant at the faculty of Economics in Osijek</td></tr>
+					<tr><td class="ptablica">Talent menadžment (TM), AIESEC</td></tr>
+					<tr><td class="ptablica">Outgoing Exchange (OEX), AIESEC</td></tr>
+				</table>
+				<br>
+				<table class="ptablica"><tr><th>Projects</th></tr>
+					<tr><td class="ptablica">Project task „Marketing strategy for Borovo d.d.“, Faculty of Economics in Osijek</td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) Nestle, Faculty of Economics in Zagreb </td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) PBZ, Faculty of Economics in Zagreb</td></tr>
+					<tr><td class="ptablica">eStudent Case Study Competition (CSC) Nokia, Faculty of Economics in Zagreb</td></tr>
+				</table>
+			</div>
+<!--
+			<h2 class="francuski">Sur moi</h3>
+			<p1 class="francuski">tekst1 fr</p1> -->
+		</div>
+
+		<div id="ostranici">
+			<h2 class="hrvatski">O stranici:</h3>
+			<div class="hrvatski"> <p1>
+Već duže vrijeme pokušavam stvarati vlastite aplikacije. Pokušao sam raditi u <b>C, C++, ActiveScript</b>, ali najdraže mi je bilo raditi u programskim jezicima za Internet zato što se lako dijele, brzo se može naći pomoć, a potreban je običan tekst editor i malo dobre volje. Prvo sam prošao tutoriale na W3School, a nakon toga sam napravio par probnih web stranica. Ova stranica je napravljena od jedne html i js datoteke, dvije css datoteke i nekoliko slika. Koristio sam dvije CSS datoteke zato što je jedna za računala, a druga za mobitele. JavaScript prilikom otvaranja provjeri koliko je veliki ekran i prema tome promijeni CSS. Izgledalo mi je najjednostavnije da cijeli sadržaj stavim u jednu HTML datoteku, a da neke elemente učinim nevidljivima (display: none). Ovisno o kliku na izbornik ili jezike, promijeni se ono što je bilo vidljivo u nevidljivo i obrnuto. Kako bi mogao u pregledniku koristiti tipku back, URL-u se doda znak hashtag (#) s odgovarajučom riječi. Cijela stranica se može vidjeti na <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPYzNIUXpkT1NLTFU/view?usp=sharing" target="_blank" > linku: </a> <br>
+Za ovu stranicu nisam koristio <b>WordPress</b> jer ga ne mogu instalirati na besplatni host Cuccfree.com. WordPress sam isprobao na  <a class="plink" href="http://community.linuxmint.com/tutorial/view/486" target="_blank">local hostu </a> na operativnom sustavu Linux Mint 17. Kada sam pokušao slati link moje stranice primijetio sam da poruke završe u neželjenoj pošti, SPF record nisam mogao dodati s besplatnim računom pa sam zato promijenio web host na Hostinger i domuneu na .from.hr. Koristim Google Webmasters i Analytics.
+			</p1>
+
+			</div>
+
+			<h2 class="njemacki">Über die Webseite</h3>
+			<div class="njemacki"> <p1>
+Für eine längere Zeit versuche ich meine eigene Apps zu machen. Ich habe versucht in <b>C, C ++, ActiveScript</b> zu arbeiten, aber am besten fand ich mit Programmiersprachen fur das Internet zu arbeiten, weil sie einfach zu teilen sind, man kann schnell Hilfe finden und man braucht einen einfachen Texteditor und ein wenig guten Willen. Zuerst machte ich alle Tutorials auf W3School, und danach habe ich ein paar Testwebseiten gemacht. Diese Seite besteht aus einer HTML, einer JavaScript, zwei CSS Dateien und ein paar Bildern. Es hat zwei CSS Dateien, weil eine für den Computer und die andere für Mobiltelefone ist. Beim Öffnen überprüft JavaScript wie groß der Bildschirm ist und ändert entsprechend die CSS Datei. Ich fand es am einfachsten, den gesamten Inhalt in eine einzelne HTML Datei einzufügen und einige Elemente unsichtbar zu machen (display: none). Wenn man Sprache oder Menü drückt, verändert JavaScript die Sichtbarkeit. Um die Zurück-Taste in den Browser nutzen zu können, wird dem URL ein hashtag (#) Zeichen mit den passenden Wort hinzugefügt. Die Gesamte Seite kann man unter dem folgenden  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPYzNIUXpkT1NLTFU/view?usp=sharing" target="_blank" >Link </a>sehen:  <br> 
+Für diese Seite habe ich nicht <b>WordPress</b> benutzt, weil es nicht auf dem freien web host Cuccfree.com installiert werden kann. Ich habe Wordpress versucht auf den  <a class="plink" href="http://community.linuxmint.com/tutorial/view/486" target="_blank">lokalen Host </a> für Linux Mint 17. Als ich versuchte den Link mit meiner Website zu senden bemerkt ich dass die Nachrichten in der unerwünscht Post enden, ich konnte nicht dim SPF Record auf dem freien Konto hinzuzufügen und so änderte ich den Web-Host zum Hostinger und Domain zum .from.hr. Ich benutze Google Analytics und Webmaster.
+			</p1> </div>
+
+			<h2 class="engleski">About my website:</h3>
+			<div class="engleski"> <p1>
+For a longer time now, I have been trying to develop my own apps. I tried working in <b>C, C++, ActiveScript</b>, but I liked working with web-based programming languages the most, because the apps are easy to share, you can easily find help and you only need a text editor and some good will. I first went through W3School tutorials and after that I made a few of my own pilot websites. This website is made out of one html and js file and a few pictures. I used two CSS files because one is meant to be seen on computers and one on mobile phones. When you enter the site, JavaScript checks how big your screen is and, according to that information, it changes the CSS. It made the most sense to me to put everything in one HTML file, but I had to make some parts invisible (display: none) and, depending whether you click on the menu or on the change languages button, JavaScript changes the visibility of some elements. To be able to use the back button in certain moments, I had to add a hashtag (#) plus a keyword to the URL. The whole page can be seen on this <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPYzNIUXpkT1NLTFU/view?usp=sharing" target="_blank" > link:</a> <br>
+For this page, I didn't use <b>WordPress</b>, because I couldn't install it on the free host Cuccfree.com. I was using WordPress on this <a class="plink" href="http://community.linuxmint.com/tutorial/view/486" target="_blank">local host</a> on Linux Mint 17. When I tried to send the link of my website I noticed that the messages end in the spam, I could not add the SPF record on the free account so I changed the web host to Hostinger and domain to .from.hr. I use Google Analytics and Webmasters.
+			</p1>
+			</div>
+
+		<!--	<h2 class="francuski">A propos de suite internet</h3>
+			<p1 class="francuski">tekst2 fr</p1>-->
+
+		<a href="server1.png" target="_blank">  <img src="server1.png" alt="Server" class="pslike"/> </a>
+		</div>
+
+		<div id="javascript">
+			<h2 class="hrvatski">JavaScript </h3>
+			<div class="hrvatski"> <p1>
+Nakon što sam pregledao sve na <a class="plink" href="http://www.w3schools.com/" target="_blank"> W3School </a>, primijetio sam da ne razumijem dovoljno JavaScript - zato sam nastavio vježbati na <a class="plink" href="http://www.codecademy.com/" target="_blank">Codeacademy</a>. Kada sam završio sve zadatke na Codeacademy, odlučio sam napraviti malu igricu i primijetio sam da još uvijek ne razumijem dovoljno pa sam zato pročitao knjigu <b>Core HTML5 Canvas</b>. Prema toj knjizi napravio sam par primjera koji se mogu ovdje skinuti. Neki od primjera su analogni sat, igra Zmija koja radi na touch screen uređajima (u Chromu, Firefoxu, Safariju i Dolphinu), a najkompleksiji je igra InfiniteMario. Igre imaju glitcheve i code sam mogao napisati u manje linija ali mislim da je za početak dobro, a ostale će biti bolje napravljene. Primjeri u JavaScriptu i stariji primjeri u ActiveScriptu mogu se preuzeti ovdje:
+			</p1>
+			<hr>
+			<br>
+				<table class="ptablica"><tr>
+					<th class="jtablica">  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPTUh2bEloZ3JxYnc/view?usp=sharing" target="_blank"> JavaScriptu </a></th>
+					<th  class="jtablica">  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPTjZocG1DcWFVbWc/view?usp=sharing" target="_blank"> ActiveScriptu </a>  </th></tr>
+
+				</table>
+
+			</div>
+
+			<h2 class="njemacki">JavaScript </h3>
+			<div class="njemacki"><p1>
+Nachdem ich alle <a class="plink" href="http://www.w3schools.com/" target="_blank">W3School</a> Tutorials gemacht habe, bemerkte ich dass ich JavaScript nicht richtig verstehe und deshalb übte ich weiter auf <a class="plink" href="http://www.codecademy.com/" target="_blank">Codeacademy</a>. Als ich alle Aufgaben auf Codeacademy fertig gemacht habe, beschloss ich ein kleines Videospiel zu machen und ich bemerkte, dass ich immer noch nicht genug verstehe und las deshalb das Buch <b>Core HTML5 Canvas</b>. Nach diesem Buch habe ich ein paar Beispiele gemacht, die hier heruntergeladen werden können. Einige Beispiele dafür sind die Analoguhr, das Videospiel Zmija dass an Touchscreen-Geräten arbeitet (in Chrome, Firefox, Safari und Dolphin) und das komplizierteste Spiel InfiniteMario. Spiele haben Glitches und die Codes könnten weniger Zeihen enthalten, aber ich denke, dass sie als Anfang gut sind und die nächsten werden besser. Beispiele in JavaScript und ältere Beispiele in ActiveScript können hier heruntergeladen werden:
+			</p1>
+			<hr>
+			<br>
+				<table class="ptablica"><tr>
+					<th class="jtablica">  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPTUh2bEloZ3JxYnc/view?usp=sharing" target="_blank"> JavaScript </a></th>
+					<th class="jtablica">  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPTjZocG1DcWFVbWc/view?usp=sharing" target="_blank"> ActiveScript </a>  </th></tr>
+
+				</table>
+			</div>
+
+			<h2 class="engleski">JavaScript </h3>
+			<div class="engleski"> <p1>
+After I went through all the tutorials on <a class="plink" href="http://www.w3schools.com/" target="_blank">W3School</a>, I noticed that I didin't know enough about JavaScript, so I continued practising on Codeacademy. When i finished all the tasks on <a class="plink" href="http://www.codecademy.com/" target="_blank">Codeacademy</a> I decided to make a small game and, while I was making it, I noticed that I still did not know enough about JavaScript, so I read the book <b>Core HTML5 Canvas</b>. Following the book, I made a few examples that can be found here. Some of the examples are an analog clock and the game Zmija that works on touch screen devices (in Chrome, Firefox, Safari and Dolphin). One of the most complex examples is the game InfiniteMario. The game has some glitches and I could have wrote the code in less lines, but I think it is ok since this is my first time doing this. The game was written in JavaScript and older examples in ActiveScript can be seen here:</p1>
+			</p1>
+			<hr>
+			<br>
+				<table class="ptablica"><tr>
+					<th class="jtablica">  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPTUh2bEloZ3JxYnc/view?usp=sharing" target="_blank">  JavaScript </a></th>
+					<th class="jtablica">  <a class="plink" href="https://drive.google.com/file/d/0B52oelHoXPOPTjZocG1DcWFVbWc/view?usp=sharing" target="_blank"> ActiveScript </a> </th></tr>
+
+				</table>
+
+			</div>
+
+		<!--	<h2 class="francuski">JavaScript </h3>
+			<p1 class="francuski">tekst3 fr</p1>-->
+
+
+		<div id="okvirframe">
+			<button type="button" onclick="promijenframe(0)">AnalogniSat</button>
+			<button type="button" onclick="promijenframe(1)">Zmija</button>
+			<button type="button" onclick="promijenframe(2)">InfiniteMario</button> <br> <br>
+			<iframe src="" id="frame" scrolling="no"></iframe>
+		</div>
+		
+		</div>
+
+		<div id="ostalo">
+			<h2 class="hrvatski">Ostalo </h3>
+			<div class="hrvatski"> <p1>
+Osim u JavaScriptu, HTML-u i CSS-u, okušao sam se u SQL-u i PHP-u. Prva web stranica koju sam napravio je bila moj web planer, za koji sam koristio PHP. Na toj stranici se nalazi Google kalendar gdje sam si svaki dan određivao zadatke, a one koje uspijem ostvariti unesem u jednostavnu formu. Forma šalje unose u SQL bazu podataka. Iz te baze se uzimaju podaci po kojima se prave grafovi. U grafovima se vidi razlika između onoga što sam napravio i onoga što sam planirao napraviti. Postoje tri grafa: dani u tjednu, tjedni u godini i dani u godini. Za pripremu baze koristio sam PHP admin na web hostu Cuccfree. Ovdje se može vidjeti moj <a class="plink" href="http://mislavoo7.cuccfree.com/" target="_blank"> web planer </a>, <a class="plink" href="webplaner.zip">code stranice</a>, a ovdje <a class="plink" href="baza.sql">baza podataka</a>. Kada bih ponovo radio istu stranicu, koristio bih više JavaScript, grafove bih crtao u canvasu i koristio bih JSON.
+			</p1>
+			</div>
+
+			<h2 class="njemacki">Alles andere </h3>
+			<div class="njemacki"> <p1>
+Neben JavaScript, HTML und CSS versuchte ich in SQL und PHP zu programmieren. Die erste Website, die ich gemacht habe war mein Web-Planer für den ich PHP verwendet habe. Auf dieser Seite nutzte ich einen Google-Kalender, wo ich meine tägliche Aufgaben festgelegt habe. Die Aufgaben, die ich erledigt habe, habe ich in eine einfache Form eingegeben. Die Form schickt die Eingaben in eine SQL Datenbank. Mit Daten aus dieser Datenbank werden die Grafiken hergestellt. In den graphischen Darstellungen kann man den Unterschied zwischen den geplanten und den erledigten Aufgaben sehen. Es gibt drei Grafiken: Tage in der Woche, Wochen im Jahr und Tage im Jahr. Um die Datenbank vorzubereiten, habe ich den PHP admin am Web-Host Cuccfree benutzt. Hier ist mein <a class="plink" href="http://mislavoo7.cuccfree.com/" target="_blank">Web-Planer</a>, <a class="plink" href="webplaner.zip">der Code</a> der Seite und die <a class="plink" href="baza.sql">Datenbanken</a> zu sehen. Wenn ich die Webseite nochmals machen würde, würde ich mehr JavaScript benutzen, Grafiken würde ich in Canvas zeichnen und ich würde JSON benutzen. 
+			</p1>
+			</div>
+
+			<h2 class="engleski">Other </h3>
+			<div class="engleski"><p1> 
+Except JavaScript, HTML and CSS I also used SQL and PHP. The first website I made was my web planner, for which I used PHP. On that website, you can see a Google calender in which I put tasks that I had to complete that day. The ones I completed, I put in a simple form. The form sends entries to the SQL database. From that database, data is taken and, according to it, charts are made. In the charts, you can see what I was supposed to do and what I actually did. There are three charts: days of the week, weeks of the year and days of the year. To prepare the base, I used PHP admin on the web host Cuccfree. Here you can see my <a class="plink" href="http://mislavoo7.cuccfree.com/" target="_blank">web-planner</a>,  <a class="plink" href="webplaner.zip">the code</a> of the web-planner and <a class="plink" href="baza.sql">the database</a>. If I were making the page again, I would use more JavaScript, draw the charts in canvas and I would use JSON.
+			</p1>
+			</div>
+
+		<!--	<h2 class="francuski">Autre </h3>
+			<p1 class="francuski">tekst4 fr</p1>-->
+		<a href="server2.png" target="_blank">  <img src="server2.png" alt="Server" class="pslike"/> </a>
+
+	</div>
+	</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58973880-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
